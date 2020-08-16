@@ -1,16 +1,17 @@
 @import 'bootstrap/dist/css/bootstrap';
 
 .navbar {
-background-color: #000000 !important;
+  background-color: black !important;
 }
 
 .nav-link {
-  color: #FFFFFF !important;
+  color: white !important;
 }
 
 #logo {
   float: left;
-  color: #FFFFFF;
+  font-size: 1.7em;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
@@ -35,7 +36,7 @@ body {
 
 #page-content {
   flex: 1 0 auto;
-  background-color: #D3D3D3;
+  background-color: lightgrey;
 }
 
 #sticky-footer {
